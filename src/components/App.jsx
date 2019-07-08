@@ -10,7 +10,8 @@ function App() {
       `}</style>
       <Header/>
       <Switch>
-
+        <Route exact path='/' component={ScheduleList} />
+        <Route path='/producelist' component={ProduceList} />
       </Switch>
     </div>
   );
