@@ -2,7 +2,7 @@
 
 
 
-# _MarketPlace_
+# _TapRoom_
 
 #### By _**Colton Lacey**_
 
@@ -35,9 +35,7 @@ _No support offered_
 ## Technologies Used
 
 _JS_
-_Node JS_
-_Angular_
-_typescript_
+_React_
 
 ### License
 
