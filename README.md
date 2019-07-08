@@ -1,4 +1,4 @@
-![componenent tree](../tree.jpeg?raw=true "Tree")
+![componenent tree](./tree.jpeg?raw=true "Tree")
 
 
 
