@@ -3,270 +3,61 @@ import Keg from './Keg';
 
 const masterKegList = [
   {
-    month: 'January',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Garlic',
-      'Mushrooms',
-      'Onions',
-      'Potatoes',
-      'Turnips'
-    ]
+
+     name, brand, price and alcoholContent
+
+    name: 'January',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'February',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Garlic',
-      'Mushrooms',
-      'Onions',
-      'Potatoes'
-    ]
+    name: 'February',
+    brand: [],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'March',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Rhubarb',
-      'Garlic',
-      'Mushrooms',
-      'Onions',
-      'Potatoes'
-    ]
+    name: 'March',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'April',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Rhubarb',
-      'Asparagus',
-      'Garlic',
-      'Lettuce',
-      'Mushrooms',
-      'Onions',
-      'Potatoes'
-    ]
+    name: 'April',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'May',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Rhubarb',
-      'Asparagus',
-      'Cauliflower',
-      'Garlic',
-      'Lettuce',
-      'Potatoes',
-      'Radishes'
-    ]
+    name: 'May',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'June',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Rhubarb',
-      'Blackberries',
-      'Cherries',
-      'Raspberries',
-      'Strawberries',
-      'Asparagus',
-      'Broccoli',
-      'Cauliflower',
-      'Kohlrabi',
-      'Lettuce',
-      'Mushrooms',
-      'Potatoes',
-      'Radishes',
-      'Squash'
-    ]
+    name: 'June',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'July',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Rhubarb',
-      'Apricots',
-      'Blackberries',
-      'Blueberries',
-      'Cherries',
-      'Melons',
-      'Nectarines',
-      'Peaches',
-      'Raspberries',
-      'Strawberries',
-      'Tomatoes',
-      'Beets',
-      'Broccoli',
-      'Brussel Sprouts',
-      'Cabbage',
-      'Carrots',
-      'Cauliflower',
-      'Cucumber',
-      'Eggplant',
-      'Garlic',
-      'Green Beans',
-      'Kohlrabi',
-      'Lettuce',
-      'Mushrooms',
-      'Potatoes',
-      'Radishes',
-      'Squash',
-      'Turnips'
-    ]
+    name: 'July',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'August',
-    selection: [
-      'Apples',
-      'Apricots',
-      'Blackberries',
-      'Blueberries',
-      'Cherries',
-      'Melons',
-      'Nectarines',
-      'Peaches',
-      'Pears',
-      'Plums',
-      'Raspberries',
-      'Rhubarb',
-      'Strawberries',
-      'Tomatoes',
-      'Beets',
-      'Broccoli',
-      'Brussel Sprouts',
-      'Cabbage',
-      'Carrots',
-      'Cauliflower',
-      'Corn',
-      'Cucumber',
-      'Eggplant',
-      'Garlic',
-      'Green Beans',
-      'Kohlrabi',
-      'Lettuce',
-      'Mushrooms',
-      'Onions',
-      'Peas',
-      'Peppers',
-      'Potatoes',
-      'Radishes',
-      'Squash',
-      'Turnips'
-    ]
+    name: 'August',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   },
   {
-    month: 'September',
-    selection: [
-      'Apples',
-      'Blueberries',
-      'Grapes',
-      'Melons',
-      'Peaches',
-      'Pears',
-      'Plums',
-      'Raspberries',
-      'Tomatoes',
-      'Broccoli',
-      'Brussel Sprouts',
-      'Cabbage',
-      'Carrots',
-      'Cauliflower',
-      'Corn',
-      'Cucumber',
-      'Eggplant',
-      'Garlic',
-      'Green Beans',
-      'Kohlrabi',
-      'Lettuce',
-      'Mushrooms',
-      'Onions',
-      'Peas',
-      'Peppers',
-      'Potatoes',
-      'Radishes',
-      'Squash',
-      'Turnips'
-    ]
-  },
-  {
-    month: 'October',
-    selection: [
-      'Apples',
-      'Grapes',
-      'Hazelnuts',
-      'Melons',
-      'Peaches',
-      'Pears',
-      'Tomatoes',
-      'Broccoli',
-      'Brussel Sprouts',
-      'Cabbage',
-      'Carrots',
-      'Cauliflower',
-      'Corn',
-      'Cucumber',
-      'Eggplant',
-      'Garlic',
-      'Green Beans',
-      'Kohlrabi',
-      'Lettuce',
-      'Mushrooms',
-      'Onions',
-      'Peas',
-      'Peppers',
-      'Potatoes',
-      'Pumpkins',
-      'Radishes',
-      'Squash',
-      'Turnips'
-    ]
-  },
-  {
-    month: 'November',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Broccoli',
-      'Carrots',
-      'Cauliflower',
-      'Garlic',
-      'Mushrooms',
-      'Onions',
-      'Potatoes',
-      'Squash',
-      'Turnips'
-    ]
-  },
-  {
-    month: 'December',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Broccoli',
-      'Carrots',
-      'Cauliflower',
-      'Garlic',
-      'Mushrooms',
-      'Onions',
-      'Potatoes',
-      'Turnips'
-    ]
+    name: 'September',
+    brand: [  ],
+    price: ,
+    alcoholContent: 
   }
 ];
 
@@ -275,8 +66,8 @@ function KegList() {
     <div>
       <hr />
       {masterKegList.map((produce, index) =>
-        <Keg month={produce.month}
-          selection={produce.selection}
+        <Keg name={produce.name}
+          brand={produce.brand}
           key={index} />
       )}
     </div>
