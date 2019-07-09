@@ -1,5 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import KegList from './KegList';
+import NewKeg from './NewKeg';
+import EditKeg from './EditKeg';
+import Employee from './Employee';
 
 function App() {
 
