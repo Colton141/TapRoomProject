@@ -4,8 +4,6 @@ import Keg from './Keg';
 const masterKegList = [
   {
 
-     name, brand, price and alcoholContent
-
     name: 'PBR',
     brand: 'PBR',
     price: '6',
@@ -53,9 +51,11 @@ function KegList() {
   return (
     <div>
       <hr />
-      {masterKegList.map((produce, index) =>
-        <Keg name={produce.name}
-          brand={produce.brand}
+      {masterKegList.map((keg, index) =>
+        <Keg name={keg.name}
+          brand={keg.brand}
+          price={keg.price}
+          alcoholContent={keg.alcoholContent}
           key={index} />
       )}
     </div>
