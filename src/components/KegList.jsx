@@ -6,58 +6,46 @@ const masterKegList = [
 
      name, brand, price and alcoholContent
 
-    name: 'January',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
+    name: 'PBR',
+    brand: 'PBR',
+    price: '6',
+    alcoholContent: '4.5'
   },
   {
-    name: 'February',
-    brand: [],
-    price: ,
-    alcoholContent: 
+    name: 'Coors Lite',
+    brand: 'Coors',
+    price: '6',
+    alcoholContent: '4.2'
   },
   {
-    name: 'March',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
+    name: 'Miller Lite',
+    brand: 'Miller',
+    price: '6',
+    alcoholContent: '4.2'
   },
   {
-    name: 'April',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
+    name: 'Blue Moon',
+    brand: 'Blue Moon',
+    price: '8',
+    alcoholContent: '5.4'
   },
   {
-    name: 'May',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
+    name: 'Amber Ale',
+    brand: 'Fat Tire',
+    price: '9',
+    alcoholContent: '5.6'
   },
   {
-    name: 'June',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
+    name: 'Rainier',
+    brand: 'Rainier',
+    price: '8',
+    alcoholContent: '4.6'
   },
   {
-    name: 'July',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
-  },
-  {
-    name: 'August',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
-  },
-  {
-    name: 'September',
-    brand: [  ],
-    price: ,
-    alcoholContent: 
+    name: 'Bud Ligh',
+    brand: 'Budwieser',
+    price: '5',
+    alcoholContent: '6'
   }
 ];
 
