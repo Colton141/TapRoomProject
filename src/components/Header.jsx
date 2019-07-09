@@ -13,8 +13,8 @@ function Header() {
         }
       `}</style>
       <div>
-        <h1>Farmer's Market</h1>
-        <Link to="/">Home</Link> | <Link to="/producelist">Produce List</Link>
+        <h1>Tap Room</h1>
+        <Link to="/">Home</Link> | <Link to="/keglist">Keg List</Link>
       </div>
     </div>
   );
