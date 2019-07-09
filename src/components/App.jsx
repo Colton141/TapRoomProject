@@ -10,7 +10,7 @@ function App() {
       `}</style>
       <Header/>
       <Switch>
-        <Route path='/' component={KegeList} />
+        <Route exact path='/' component={KegeList} />
         <Route path='/newKeg' component={NewKeg} />
         <Route path='/edit' component={EditKeg} />
         <Route path='/employee' component={Employee} />
