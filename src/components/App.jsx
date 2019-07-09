@@ -11,6 +11,10 @@ function App() {
       <Header/>
       <Switch>
         <Route path='/' component={KegeList} />
+        <Route path='/newKeg' component={NewKeg} />
+        <Route path='/edit' component={EditKeg} />
+        <Route path='/employee' component={Employee} />
+
       </Switch>
     </div>
   );
