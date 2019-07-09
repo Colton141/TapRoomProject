@@ -57,6 +57,7 @@ function KegList() {
           price={keg.price}
           alcoholContent={keg.alcoholContent}
           key={index} />
+          <button>Edit</button>
       )}
     </div>
   );
