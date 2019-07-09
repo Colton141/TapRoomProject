@@ -14,7 +14,7 @@ function Header() {
       `}</style>
       <div>
         <h1>Tap Room</h1>
-        <Link to="/">Home</Link> | <Link to="/keglist">Keg List</Link> | <Link to="/employee">employee</Link>
+        <Link to="/">Home</Link>| <Link to="/employee">Employee</Link>
       </div>
     </div>
   );

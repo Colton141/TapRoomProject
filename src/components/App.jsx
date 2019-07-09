@@ -4,6 +4,7 @@ import KegList from './KegList';
 import NewKeg from './NewKeg';
 import EditKeg from './EditKeg';
 import Employee from './Employee';
+import Header from './Header';
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       `}</style>
       <Header/>
       <Switch>
-        <Route exact path='/' component={KegeList} />
+        <Route exact path='/' component={KegList} />
         <Route path='/newKeg' component={NewKeg} />
         <Route path='/edit' component={EditKeg} />
         <Route path='/employee' component={Employee} />

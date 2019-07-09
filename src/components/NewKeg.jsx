@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Login(){
+function NewKeg(){
   return (
     <div>
       <h1>New Keg</h1>
@@ -16,4 +16,4 @@ function Login(){
   );
 }
 
-export default Login;
+export default NewKeg;
