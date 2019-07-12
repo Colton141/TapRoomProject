@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import KegList from './KegList';
 import NewKegForm from './NewKegForm';
+import Error404 from './Error404';
 import EditKeg from './EditKeg';
 import Employee from './Employee';
 import Header from './Header';
