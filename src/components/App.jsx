@@ -8,6 +8,14 @@ import Header from './Header';
 
 function App() {
 
+  constructor(props) {
+  super(props);
+  this.state = {
+    masterTicketList: []
+  };
+  this.handleAddingNewTicketToList = this.handleAddingNewTicketToList.bind(this);
+}
+
   return (
     <div>
       <style global jsx>{`
