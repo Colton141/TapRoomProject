@@ -8,7 +8,7 @@ import Employee from './Employee';
 import Header from './Header';
 
 
-function App() {
+class App extends React.Component  {
 
   constructor(props) {
   super(props);
