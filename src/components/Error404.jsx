@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function Error404(props){
   return (
     <div>
-      <h2>Hey dipshit, {props.location.pathname} does not exist!</h2>
-      <h3>Since typing in any random crap doesn't seem to be working for you maybe you'd like to return <Link to="/">home</Link> instead?</h3>
+      <h2>Oops, {props.location.pathname} does not exist!</h2>
+      <h3>Since this doesn't seem to be working for you maybe you'd like to return <Link to="/">home</Link> instead?</h3>
     </div>
   );
 }
