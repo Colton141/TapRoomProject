@@ -25,11 +25,6 @@ class App extends React.Component  {
       `}</style>
       <Header/>
       <Switch>
-        <Route exact path='/' component={KegList} />
-        <Route path='/newKegform' component={NewKegForm} />
-        <Route path='/edit' component={EditKeg} />
-        <Route path='/employee' component={Employee} />
-
         <Route exact path='/' render={()=><KegList kegList={this.state.masterKegList} />} />
         <Route path='/newkeg' render={() =><NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />} />
         <Route path='/employee' render={() =><NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />} />
