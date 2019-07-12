@@ -7,7 +7,7 @@ function Employee() {
     <div>
       <style jsx>{`
         h1 {
-          color: white;
+          color: black;
           text-align: center;
           font-size: 40px;
         }
