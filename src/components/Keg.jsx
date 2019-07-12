@@ -6,6 +6,15 @@ function Keg(props) {
     <div>
       <style jsx>{`
 
+     .color-toggle {
+       background-color: grey;
+       padding-left: 10%;
+       padding-right: 10%;
+       padding-top: 1%;
+     }
+     .color-toggle:hover {
+       background-color: lightgrey;
+     }
       `}</style>
       <div>
         <h2>{props.name}</h2>
