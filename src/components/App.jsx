@@ -7,14 +7,15 @@ import EditKeg from './EditKeg';
 import Employee from './Employee';
 import Header from './Header';
 
+
 function App() {
 
   constructor(props) {
   super(props);
   this.state = {
-    masterTicketList: []
+    masterKegList: []
   };
-  this.handleAddingNewTicketToList = this.handleAddingNewTicketToList.bind(this);
+  this.handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
 }
 
   return (
