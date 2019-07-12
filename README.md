@@ -8,11 +8,11 @@
 
 ## Description
 
-_A program will allow user to search a market of thing stuff for sale by other users._
+_A program will allow user to search a Tap room of current keg pic from._
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| The program should allow user look though the market of items for sale |
+| The program should allow user look though Tap room of a list kegs |
 | The program should allow user to click on items and view there information |
 | The user should be able to sort items by price |
 
