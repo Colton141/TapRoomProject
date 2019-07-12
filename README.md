@@ -8,7 +8,7 @@
 
 ## Description
 
-_A program will allow user to search a Tap room of current keg pic from._
+_A program will allow user to search a Tap room of current keg pick from._
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
