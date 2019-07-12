@@ -13,6 +13,8 @@ function Employee() {
         }
       `}</style>
       <div>
+        <h1>Tap Room</h1>
+     <Link to="/newkeg">New Keg</Link>
       </div>
     </div>
 
