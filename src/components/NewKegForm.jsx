@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import { v4 } from 'uuid';
 
 function NewKegForm(props){
   let _names = null;
