@@ -6,15 +6,22 @@ function Keg(props) {
     <div>
       <style jsx>{`
 
-     .color-toggle {
-       background-color: grey;
-       padding-left: 10%;
-       padding-right: 10%;
-       padding-top: 1%;
-     }
-     .color-toggle:hover {
-       background-color: lightgrey;
-     }
+
+          var KegSyle = {
+            minHeight: '150px',
+            borderRadius: '5px',
+            backgroundColor: '#edeff1',
+            paddingBottom: "2%",
+            marginBottom: "2%"
+          }
+          var KegHeader = {
+            padding: '1px',
+            borderTopLeftRadius: '5px',
+            borderTopRightRadius: '5px',
+            backgroundColor: '#a08db5',
+            color: 'white',
+            fontSize: '10px'
+          }
       `}</style>
       <div>
         <h2>{props.name}</h2>
