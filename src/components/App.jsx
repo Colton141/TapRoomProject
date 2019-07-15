@@ -5,6 +5,7 @@ import NewKegForm from './NewKegForm';
 import Error404 from './Error404';
 import Employee from './Employee';
 import Header from './Header';
+import PropTypes from 'prop-types';
 
 
 class App extends React.Component  {
@@ -18,7 +19,7 @@ class App extends React.Component  {
   }
 
   handleAddingNewKegToList(newKeg) {
-  let newMasterKegList = this.state.masterKegList.slice()
+  let newMasterKegList = this.state.masterKegList.slice();
   newMasterKegList.push(newKeg);
   this.setState({masterKegList: newMasterKegList});
 }
@@ -29,7 +30,7 @@ class App extends React.Component  {
         <Header/>
         <Switch>
         <Route exact path='/' render={()=><KegList kegList={this.state.masterKegList} />} />
-        <Route path='/newkeg' render={() =><NewKegForm />} />
+        <Route path='/newkeg' render={() =><NewKegForm onNewKegCreation={this.handleAddingNewKegToList} />} />
         <Route path='/employee' render={() =><Employee keglist={this.state.masterKegList} />} />
         <Route component={Error404} />
         </Switch>
@@ -38,5 +39,6 @@ class App extends React.Component  {
       );
     }
   }
+
 
   export default App;

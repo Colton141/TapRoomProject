@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Employee() {
+
+function Employee(props) {
 
   return (
     <div>
@@ -12,13 +13,15 @@ function Employee() {
         font-size: 40px;
       }
       `}</style>
+      <h1>Employee</h1>
+      <h1><Link to="/newkeg">New Keg</Link></h1>
       <div>
-      <h1>Tap Room</h1>
-      <Link to="/newkeg">New Keg</Link>
       </div>
       </div>
 
     );
   }
+
+
 
   export default Employee;
