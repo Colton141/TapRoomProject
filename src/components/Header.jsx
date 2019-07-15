@@ -7,7 +7,7 @@ function Header() {
     <div>
       <style jsx>{`
         h1 {
-          color: black;
+          color: white;
           text-align: center;
           font-size: 40px;
         }

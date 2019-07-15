@@ -9,7 +9,7 @@ function KegList() {
   return (
     <div>
       <hr />
-      {masterKegList.map((keg, index) =>
+      {masterKegList.map((keg) =>
         <Keg name={keg.name}
           brand={keg.brand}
           price={keg.price}
@@ -20,5 +20,9 @@ function KegList() {
     </div>
   );
 }
+
+,KegList.propTypes = {
+  kegList: PropTypes.array
+};
 
 export default KegList;

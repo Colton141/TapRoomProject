@@ -17,12 +17,9 @@ class App extends React.Component  {
   };
   this.handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
 }
-
+render() {
   return (
-    <div>
-      <style global jsx>{`
-
-      `}</style>
+      <div>
       <Header/>
       <Switch>
         <Route exact path='/' render={()=><KegList kegList={this.state.masterKegList} />} />
@@ -30,8 +27,10 @@ class App extends React.Component  {
         <Route path='/employee' render={() =><NewKegControl onNewKegCreation={this.handleAddingNewKegToList} />} />
         <Route component={Error404} />
       </Switch>
+
     </div>
   );
+}
 }
 
 export default App;
