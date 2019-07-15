@@ -7,6 +7,7 @@ function NewKegForm(props){
   let _names = null;
   let _brand = null;
   let _price = null;
+  let _alcohholContent = null;
 
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
@@ -45,4 +46,8 @@ function NewKegForm(props){
   );
 }
 
-export default NewKeg;
+NewKegForm.propTypes = {
+  onNewkegCreation: PropTypes.func
+};
+
+export default NewKegForm;

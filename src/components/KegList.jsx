@@ -5,11 +5,12 @@ import PropTypes from 'prop-types';
 const masterKegList = [
 
 
-function KegList() {
+function KegList(props) {
+
   return (
     <div>
       <hr />
-      {masterKegList.map((keg) =>
+      {props.kegList.map((keg) =>
         <Keg name={keg.name}
           brand={keg.brand}
           price={keg.price}
@@ -21,7 +22,7 @@ function KegList() {
   );
 }
 
-,KegList.propTypes = {
+KegList.propTypes = {
   kegList: PropTypes.array
 };
 

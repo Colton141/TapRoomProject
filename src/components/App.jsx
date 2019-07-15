@@ -6,6 +6,7 @@ import Error404 from './Error404';
 import EditKeg from './EditKeg';
 import Employee from './Employee';
 import Header from './Header';
+import NewKegControl from './NewKegControl';
 
 
 class App extends React.Component  {
