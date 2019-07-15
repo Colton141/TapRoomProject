@@ -5,25 +5,25 @@ import PropTypes from 'prop-types';
 const masterKegList = [
 
 
-function KegList(props) {
+  function KegList(props) {
 
-  return (
-    <div>
+    return (
+      <div>
       <hr />
       {props.kegList.map((keg) =>
         <Keg name={keg.name}
-          brand={keg.brand}
-          price={keg.price}
-          alcoholContent={keg.alcoholContent}
-          key={index} />
+        brand={keg.brand}
+        price={keg.price}
+        alcoholContent={keg.alcoholContent}
+        key={index} />
 
       )}
-    </div>
-  );
-}
+      </div>
+    );
+  }
 
-KegList.propTypes = {
-  kegList: PropTypes.array
-};
+  KegList.propTypes = {
+    kegList: PropTypes.array
+  };
 
-export default KegList;
+  export default KegList;

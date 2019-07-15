@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
 
@@ -20,28 +19,28 @@ function NewKegForm(props){
 
   return (
     <div>
-      <form onSubmit={handleNewKegFormSubmission}>
-        <input
-          type='text'
-          id='names'
-          placeholder='Pair Names'
-          ref={(input) => {_names = input;}}/>
-        <input
-          type='text'
-          id='brand'
-          placeholder='Location'
-          ref={(input) => {_brand = input;}} />
-        <textarea
-          id='price'
-          placeholder='Describe your price.'
-          ref={(textarea) => {_price = textarea;}} />
-          <input
-            type='text'
-            id='brand'
-            placeholder='Location'
-            ref={(input) => {_alcohholContent = input;}} />
-        <button type='submit'>Help!</button>
-      </form>
+    <form onSubmit={handleNewKegFormSubmission}>
+    <input
+    type='text'
+    id='names'
+    placeholder='Pair Names'
+    ref={(input) => {_names = input;}}/>
+    <input
+    type='text'
+    id='brand'
+    placeholder='Location'
+    ref={(input) => {_brand = input;}} />
+    <textarea
+    id='price'
+    placeholder='Describe your price.'
+    ref={(textarea) => {_price = textarea;}} />
+    <input
+    type='text'
+    id='brand'
+    placeholder='Location'
+    ref={(input) => {_alcohholContent = input;}} />
+    <button type='submit'>Help!</button>
+    </form>
     </div>
   );
 }

@@ -5,20 +5,20 @@ function Employee() {
 
   return (
     <div>
-      <style jsx>{`
-        h1 {
-          color: black;
-          text-align: center;
-          font-size: 40px;
-        }
+    <style jsx>{`
+      h1 {
+        color: black;
+        text-align: center;
+        font-size: 40px;
+      }
       `}</style>
       <div>
-        <h1>Tap Room</h1>
-     <Link to="/newkeg">New Keg</Link>
+      <h1>Tap Room</h1>
+      <Link to="/newkeg">New Keg</Link>
       </div>
-    </div>
+      </div>
 
-  );
-}
+    );
+  }
 
-export default Employee;
+  export default Employee;
