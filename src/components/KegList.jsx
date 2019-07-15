@@ -2,7 +2,6 @@ import React from 'react';
 import Keg from './Keg';
 import PropTypes from 'prop-types';
 
-const masterKegList = [
 
 
   function KegList(props) {
@@ -15,7 +14,7 @@ const masterKegList = [
         brand={keg.brand}
         price={keg.price}
         alcoholContent={keg.alcoholContent}
-        key={index} />
+        key={keg.id} />
 
       )}
       </div>

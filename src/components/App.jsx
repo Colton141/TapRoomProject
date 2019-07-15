@@ -16,20 +16,27 @@ class App extends React.Component  {
     };
     this.handleAddingNewKegToList = this.handleAddingNewKegToList.bind(this);
   }
+
+  handleAddingNewKegToList(newKeg) {
+  let newMasterKegList = this.state.masterKegList.slice()
+  newMasterKegList.push(newKeg);
+  this.setState({masterKegList: newMasterKegList});
+}
+
   render() {
     return (
       <div>
-      <Header/>
-      <Switch>
-      <Route exact path='/' render={()=><KegList kegList={this.state.masterKegList} />} />
-      <Route path='/newkeg' render={() =><NewKegForm />} />
-      <Route path='/employee' render={() =><Employee keglist={this.state.masterKegList} />} />
-      <Route component={Error404} />
-      </Switch>
+        <Header/>
+        <Switch>
+        <Route exact path='/' render={()=><KegList kegList={this.state.masterKegList} />} />
+        <Route path='/newkeg' render={() =><NewKegForm />} />
+        <Route path='/employee' render={() =><Employee keglist={this.state.masterKegList} />} />
+        <Route component={Error404} />
+        </Switch>
 
-      </div>
-    );
+        </div>
+      );
+    }
   }
-}
 
-export default App;
+  export default App;
